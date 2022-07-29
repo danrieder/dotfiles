@@ -125,7 +125,8 @@ font:
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
-    family: SauceCodePro Nerd Font Mono 
+    # family: SauceCodePro Nerd Font Mono 
+    family: mononoki Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -145,7 +146,8 @@ font:
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
-    family: SauceCodePro Nerd Font Mono 
+    # family: SauceCodePro Nerd Font Mono 
+    family: mononoki Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -165,7 +167,8 @@ font:
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
-    family: SauceCodePro Nerd Font Mono 
+    # family: SauceCodePro Nerd Font Mono 
+    family: mononoki Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -185,7 +188,8 @@ font:
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
-    family: SauceCodePro Nerd Font Mono 
+    # family: SauceCodePro Nerd Font Mono 
+    family: mononoki Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -466,6 +470,64 @@ schemes:
       cyan:    '#a3f7ff'
       white:   '#ffffff'
 
+  ### Tokyo-Night ###
+  tokyo-night: &tokyo-night
+    # Default colors
+    primary:
+      background: '0x1a1b26'
+      foreground: '0xa9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '0x32344a'
+      red:     '0xf7768e'
+      green:   '0x9ece6a'
+      yellow:  '0xe0af68'
+      blue:    '0x7aa2f7'
+      magenta: '0xad8ee6'
+      cyan:    '0x449dab'
+      white:   '0x787c99'
+
+    # Bright colors
+    bright:
+      black:   '0x444b6a'
+      red:     '0xff7a93'
+      green:   '0xb9f27c'
+      yellow:  '0xff9e64'
+      blue:    '0x7da6ff'
+      magenta: '0xbb9af7'
+      cyan:    '0x0db9d7'
+      white:   '0xacb0d0'
+
+  ### Tokyo-Night-Storm ###
+  tokyo-night-storm: &tokyo-night-storm
+    # Default colors
+    primary:
+      background: '0x24283b'
+      foreground: '0xa9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '0x32344a'
+      red:     '0xf7768e'
+      green:   '0x9ece6a'
+      yellow:  '0xe0af68'
+      blue:    '0x7aa2f7'
+      magenta: '0xad8ee6'
+      cyan:    '0x449dab'
+      white:   '0x9699a8'
+
+    # Bright colors
+    bright:
+      black:   '0x444b6a'
+      red:     '0xff7a93'
+      green:   '0xb9f27c'
+      yellow:  '0xff9e64'
+      blue:    '0x7da6ff'
+      magenta: '0xbb9af7'
+      cyan:    '0x0db9d7'
+      white:   '0xacb0d0'
+        
   ### Solarized Dark ###
   SolarizedDark: &SolarizedDark
     # Default colors
@@ -579,11 +641,14 @@ schemes:
 # *Nord
 # *OceanicNext
 # *Palenight
+# *tokyo-night
+# *tokyo-night-storm
 # *SolarizedLight
 # *SolarizedDark
 # *TomorrowNight
 
 colors: *Dracula
+
 
 #######################################
 ##       END OF COLOR SCHEMES        ##
