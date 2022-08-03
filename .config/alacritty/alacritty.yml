@@ -647,7 +647,7 @@ schemes:
 # *SolarizedDark
 # *TomorrowNight
 
-colors: *Dracula
+colors: *tokyo-night-storm
 
 
 #######################################
