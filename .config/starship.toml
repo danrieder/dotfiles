@@ -9,6 +9,8 @@ $git_metrics\
 $fill\
 $c\
 $python\
+$lua\
+$shell\
 $cmd_duration $jobs\
 $line_break\
 $character"""
@@ -24,6 +26,15 @@ style = "bold blue"
 format = "[$symbol($version )]($style)"
 style = "bold green"
 symbol = "python "
+
+[lua]
+format = "[$symbol($version )]($style)"
+style = "purple"
+
+[shell]
+format = "[$symbol($version )]($style)"
+style = "green"
+disabled = false
 
 [fill]
 symbol = " "
