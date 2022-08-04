@@ -1,16 +1,24 @@
-# Dotfile & Config Rpository #
+# Dotfile & Config Repository #
 
 This is a "bare" repository for storing all dotfiles and config files.  A "bare" repo allows you to keep
 all of your dotfiles in their normal location, and uses a separate repo directory to track all the changes.  
-For me, repo directory is called simply "dotfiles", and the working tree is my home directory as well as all 
-other directories within it.
+My repo directory is called simply "dotfiles", and the working tree is my home directory.  
 
-My environment currently consists of:
-- [alacritty](https://alacritty.org) terminal emulator
-- [zsh](https://www.zsh.org) without oh-my-zsh - just a small function to load a couple of plugins
-- [lunarvim](https://github.com/LunarVim/LunarVim) complete neovim ide
-- [neovim](https://github.com/neovim/neovim) my own config files included here (a poor imitation of LunarVim)
+[Tutorial](https://www.atlassian.com/git/tutorials/dotfiles) on setting up your own bare repo for storing dotfiles. 
+
+**My environment currently consists of:**
+- [alacritty](https://alacritty.org) a fantastic GPU accelerated terminal emulator 
 - [tmux](https://github.com/tmux/tmux/wiki) because all the cool kids said I should use this instead of screen
+- [zsh](https://www.zsh.org) without oh-my-zsh - just a small function to load a couple of plugins
+- [starship](httpd://starship.rs) a fast and customizable cross-shell prompt
+- [lunarvim](https://github.com/LunarVim/LunarVim) a complete neovim ide
+- [neovim](https://github.com/neovim/neovim) my own config files included here (a poor imitation of LunarVim)
+- [awesomewm](https://awesomewm.org/) a very beautiful tiling window manager
+
+**Color Schemes and Fonts** 
+- [tokyonight](https://github.com/folke/tokyonight.nvim) a set of neovim color schemes by folke which I am also using in alacritty
+- [mononoki nerd font](https://www.nerdfonts.com/font-downloads) I keep it checked into my ~/.local/share/fonts directory 
+
 
 ## Note to myself: How to clone this bare repo to a new install ##
 
