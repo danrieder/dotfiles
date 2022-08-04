@@ -14,12 +14,17 @@ My environment currently consists of:
 
 ## Note to myself: How to clone this bare repo to a new install ##
 
-- Clone the repo, make sure to use the --bare flag
-`git clone --bare https://github.com/danrieder/dotfiles.git $HOME/dotfiles`
-- **Set the alias for config prior to cheking out the repo**
-`alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'`
+- Clone the repo, make sure to use the --bare flag  
+
+`git clone --bare https://github.com/danrieder/dotfiles.git $HOME/dotfiles`  
+
+- **Set the alias for config prior to cheking out the repo**  
+
+`alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'`  
+
 - mv or rm any config files that git will complain about
-- Checkout the files:
+- Checkout the files:  
+
 `config checkout`
 
 
