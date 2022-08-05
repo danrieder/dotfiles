@@ -10,14 +10,14 @@ My repo directory is called simply "dotfiles", and the working tree is my home d
 - [alacritty](https://alacritty.org) a fantastic GPU accelerated terminal emulator 
 - [tmux](https://github.com/tmux/tmux/wiki) because all the cool kids said I should use this instead of screen
 - [zsh](https://www.zsh.org) without oh-my-zsh - just a small function to load a couple of plugins
-- [starship](httpd://starship.rs) a fast and customizable cross-shell prompt
+- [starship](https://starship.rs) a fast and customizable cross-shell prompt
 - [lunarvim](https://github.com/LunarVim/LunarVim) a complete neovim ide
 - [neovim](https://github.com/neovim/neovim) my own config files included here (a poor imitation of LunarVim)
 - [awesomewm](https://awesomewm.org/) a very beautiful tiling window manager
 
 **Color Schemes and Fonts** 
 - [tokyonight](https://github.com/folke/tokyonight.nvim) a set of neovim color schemes by folke which I am also using in alacritty
-- [mononoki nerd font](https://www.nerdfonts.com/font-downloads) I keep it checked into my ~/.local/share/fonts directory 
+- [mononoki nerd font](https://www.nerdfonts.com/font-downloads) I keep it checked into my ~/.local/share/fonts directory, so that my alacritty.yml has what it needs  
 
 
 ## Note to myself: How to clone this bare repo to a new install ##
