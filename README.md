@@ -1,6 +1,6 @@
 # Dotfile & Config Repository #
 
-This is a "bare" repository for storing all dotfiles and config files.  A "bare" repo allows you to keep
+This is a "bare" repository for storing dotfiles and config files.  A "bare" repo allows you to keep
 all of your dotfiles in their normal location, and uses a separate repo directory to track all the changes.  
 My repo directory is called simply "dotfiles", and the working tree is my home directory.  
 
