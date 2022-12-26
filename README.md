@@ -35,5 +35,8 @@ My repo directory is called simply "dotfiles", and the working tree is my home d
 
 `config checkout`
 
+- generate new ssh key, and upload to github
+- fix checkout method on github: change checkout from https to ssh
+- set upstream to remote
 
 
