@@ -45,10 +45,12 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "vimwiki/vimwiki" -- personal wiki 
+  use 'kyazdani42/nvim-web-devicons' -- Needed for nvim-tree
+  use 'kyazdani42/nvim-tree.lua' -- File Explorer 
 
   -- Colorschemes
   use "lunarvim/darkplus.nvim"
-  use 'folke/tokyonight.nvim'
+  use "folke/tokyonight.nvim"
   
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -69,7 +71,16 @@ return packer.startup(function(use)
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
-  use 'nvim-telescope/telescope-media-files.nvim'
+  use "nvim-telescope/telescope-media-files.nvim"
+
+  -- Git
+  use "lewis6991/gitsigns.nvim"
+
+  -- lualine
+  use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
