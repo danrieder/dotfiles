@@ -15,6 +15,12 @@ $cmd_duration $jobs\
 $line_break\
 $character"""
 
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
 [nodejs]
 format = "[$symbol($version )]($style)"
 
@@ -46,7 +52,7 @@ truncation_length = 4
 truncate_to_repo = false
 
 [character]
-success_symbol = "[❯](bold green)"
+success_symbol = "[❯](bold purple)"
 error_symbol = "[❯](red)"
 vicmd_symbol = "[❮](green)"
 
