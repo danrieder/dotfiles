@@ -36,7 +36,16 @@ My repo directory is called simply "dotfiles", and the working tree is my home d
 `config checkout`
 
 - generate new ssh key, and upload to github
+
+`ssh-keygen -t ed25519 -C "name@host"`
+
 - fix checkout method on github: change checkout from https to ssh
+
+`config remote set-url origin git@github.com:danrieder/dotfiles.git`
+
 - set upstream to remote
+
+`config pusdh --set-upstream origin master`
+`
 
 
