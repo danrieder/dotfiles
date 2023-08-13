@@ -45,7 +45,7 @@ My repo directory is called simply "dotfiles", and the working tree is my home d
 
 - set upstream to remote
 
-`config pusdh --set-upstream origin master`
+`config push --set-upstream origin master`
 `
 
 
