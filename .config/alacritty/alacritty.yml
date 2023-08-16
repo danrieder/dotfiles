@@ -34,8 +34,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 6
-    y: 6
+    x: 1
+    y: 1
 
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: false
@@ -45,7 +45,7 @@ window:
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
   # opacity: 1.0
-  opacity: 0.6
+  opacity: 0.655555
 
   # Window decorations
   #
@@ -84,7 +84,7 @@ window:
   # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
   # Set this to `None` to use the default theme variant.
   # gtk_theme_variant has been depricated
-  #gtk_theme_variant: dark 
+  # gtk_theme_variant: dark 
   window.decorations_theme_variant: dark
 
 
@@ -122,7 +122,7 @@ font:
     # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
-    # family: Hack
+    family: Hack
     # family: JetBrains Mono
     # family: UbuntuMono Nerd Font
     # family: Monofur Nerd Font
@@ -130,7 +130,7 @@ font:
     # family: Mononoki Nerd Font
     # family: SauceCodePro Nerd Font Mono 
     # family: FiraCode Nerd Font Mono
-    family: mononoki Nerd Font Mono
+    # family: mononoki Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -144,7 +144,7 @@ font:
     # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
-    # family: Hack
+    family: Hack
     # family: JetBrains Mono
     # family: UbuntuMono Nerd Font
     # family: Monofur Nerd Font
@@ -152,7 +152,7 @@ font:
     # family: Mononoki Nerd Font
     # family: SauceCodePro Nerd Font Mono 
     # family: FiraCode Nerd Font Mono
-    family: mononoki Nerd Font Mono
+    # family: mononoki Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -166,7 +166,7 @@ font:
     # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
-    # family: Hack
+    family: Hack
     # family: JetBrains Mono
     # family: UbuntuMono Nerd Font
     # family: Monofuritalic Nerd Font Mono
@@ -174,7 +174,7 @@ font:
     # family: Mononoki Nerd Font
     # family: SauceCodePro Nerd Font Mono 
     # family: FiraCode Nerd Font Mono
-    family: mononoki Nerd Font Mono
+    # family: mononoki Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -188,7 +188,7 @@ font:
     # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
-    # family: Hack
+    family: Hack
     # family: JetBrains Mono
     # family: UbuntuMono Nerd Font
     # family: Monofuritalic Nerd Font Mono
@@ -196,7 +196,7 @@ font:
     # family: Mononoki Nerd Font
     # family: SauceCodePro Nerd Font Mono 
     # family: FiraCode Nerd Font Mono
-    family: mononoki Nerd Font Mono
+    # family: mononoki Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -681,7 +681,8 @@ schemes:
 # *TomorrowNight
 # *Garuda2022
 
-colors: *tokyo-night-storm
+colors: *tokyo-night
+# colors: *Nord
 
 
 #######################################
