@@ -7,13 +7,11 @@ My repo directory is called simply "dotfiles", and the working tree is my home d
 [Tutorial](https://www.atlassian.com/git/tutorials/dotfiles) on setting up your own bare repo for storing dotfiles. 
 
 **My environment currently consists of:**
-- [alacritty](https://alacritty.org) a fantastic GPU accelerated terminal emulator 
-- [tmux](https://github.com/tmux/tmux/wiki) because all the cool kids said I should use this instead of screen
+- [alacritty](https://alacritty.org) GPU accelerated terminal emulator 
+- [tmux](https://github.com/tmux/tmux/wiki) I used to use screen, now I use this.
 - [zsh](https://www.zsh.org) without oh-my-zsh - just a small function to load a couple of plugins
 - [starship](https://starship.rs) a fast and customizable cross-shell prompt
-- [lunarvim](https://github.com/LunarVim/LunarVim) a complete neovim ide
 - [neovim](https://github.com/neovim/neovim) my own config files included here (a poor imitation of LunarVim)
-- [awesomewm](https://awesomewm.org/) a very beautiful tiling window manager
 
 **Color Schemes and Fonts** 
 - [tokyonight](https://github.com/folke/tokyonight.nvim) a set of neovim color schemes by folke which I am also using in alacritty
