@@ -288,7 +288,7 @@ schemes:
       focused_match:
         foreground: '#44475a'
         background: '#ffb86c'
-      bar:
+      colors.footer_bar:
         background: '#282a36'
         foreground: '#f8f8f2'
     line_indicator:
@@ -681,8 +681,8 @@ schemes:
 # *TomorrowNight
 # *Garuda2022
 
-colors: *tokyo-night
-# colors: *Nord
+# colors: *tokyo-night
+colors: *Nord
 
 
 #######################################
