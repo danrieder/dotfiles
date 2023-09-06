@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo rm /etc/resolv.conf
+sudo sh -c 'cat /var/run/NetworkManager/resolv.conf > /etc/resolv.conf'

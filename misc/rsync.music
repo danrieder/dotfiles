@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rsync -avz /run/media/drieder/T5\ data/Music/ /home/drieder/Music
